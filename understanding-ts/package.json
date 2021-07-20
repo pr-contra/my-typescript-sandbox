@@ -1,0 +1,15 @@
+{
+  "name": "understanding-ts",
+  "version": "1.0.0",
+  "description": "Learning Typescript",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "lite-server",
+    "compile": "tsc app.ts",
+    "dev": "yarn compile && yarn start"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
