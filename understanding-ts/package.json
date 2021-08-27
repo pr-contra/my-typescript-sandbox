@@ -6,8 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "lite-server",
-    "compile": "tsc app.ts",
-    "dev": "yarn compile && yarn start"
+    "compile": "tsc --watch"
   },
   "devDependencies": {
     "lite-server": "^2.6.1"
